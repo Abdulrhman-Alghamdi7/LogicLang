@@ -2,6 +2,8 @@
 
 LogicLang is a Python-based **propositional logic language** for defining variables and functions, building logical expressions with standard operators (~, &, |, ->, <->), and performing semantic evaluation. It supports satisfiability, validity, contradictions, generating models and countermodels, and producing truth tables. Expressions are parsed into syntax trees and evaluated using Python lambdas. The language includes a REPL for interactive use or can run scripts from `.logic` files.
 
+> **Note:** This project is a personal experiment, so the code is not commented.
+
 ---
 
 ## Features
@@ -101,8 +103,4 @@ LogicLang evaluates expressions **semantically**, checking all possible boolean 
 
 Expressions are parsed into **syntax trees** and converted into **Python lambdas** for evaluation.
 
-
 > **Note:** This README was generated with the assistance of an AI.
-
-
-
