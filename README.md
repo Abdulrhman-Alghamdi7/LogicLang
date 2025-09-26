@@ -29,7 +29,7 @@ LogicLang is a Python-based **propositional logic language** for defining variab
 ---
 
 ## Grammar Overview
-
+```
 Each line is self-contained: either a definition or a query.
 
 digit           ::= '0' | '1' | ... | '9'
@@ -62,6 +62,7 @@ query           ::= '?' query_type expr
 comment         ::= '#' txt
 txt             ::= any sequence of characters excluding newlines
 write           ::= ('write' | 'writeln') (expr | txt)
+```
 
 ---
 
