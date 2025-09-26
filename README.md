@@ -86,10 +86,10 @@ True
 >>> writeln "Evaluation complete"
 Evaluation complete
 ```
-###Execution 
+
+###Execution
 Run `.logic` files:
 `python logiclang.py examples/test.logic`
-
 ---
 
 ## Semantic Evaluation
