@@ -80,7 +80,7 @@ python logiclang.py
 >>> y := False
 >>> f(a, b) := a & b
 >>> ?sat f(x, y)
-False
+True
 >>> ?valid x | ~x
 True
 >>> writeln "Evaluation complete"
